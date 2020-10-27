@@ -1,8 +1,10 @@
+p{
+  font-size: 14px;
+}
 body{
   background-color: #444444;
   color:#dddddd;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 10%
 }
 
 .exp-header{
@@ -14,5 +16,39 @@ body{
 }
 
 .details{
-  font-size:0.75rem
+  font-size: 12px;
+}
+
+.tenure{
+  font-size: 12px;
+  float: right;
+}
+.summary{
+  font-style: italic;
+}
+
+h4 {
+	border-bottom: 1px solid #999;
+}
+
+h5{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#container {
+	width: 800px;
+	margin: 40px auto 60px;
+}
+
+#pic {
+  transform: rotate(10deg);
+  margin-top: 20px;
+  border-radius: 20%;
+  width:15%;
+  float: right;
+}
+
+#title{
+	border-bottom: 1px solid #999;
 }
